@@ -3,6 +3,7 @@ import { HeaderComponent } from './header/header.component';
 import { DashboardStatusComponent } from './dashboard/dashboard-status/dashboard-status.component';
 import { DashboardTrafficComponent } from './dashboard/dashboard-traffic/dashboard-traffic.component';
 import { DashboardTodoComponent } from './dashboard/dashboard-todo/dashboard-todo.component';
+import { DashboardItemComponent } from "./dashboard/dashboard-item/dashboard-item.component";
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,9 @@ import { DashboardTodoComponent } from './dashboard/dashboard-todo/dashboard-tod
     DashboardStatusComponent,
     DashboardTrafficComponent,
     DashboardTodoComponent,
-  ],
+    DashboardItemComponent,
+    DashboardItemComponent
+],
 })
 export class AppComponent {
 }
